@@ -1,0 +1,41 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    background: linear-gradient(to right, #cbeaed, #e3dfc8, #d9adad);
+    
+}
+
+#container {
+    width: 100%;
+    text-align: center;
+}
+#container button {
+    margin-top: 100px;
+    width: 150px;
+    min-height: 50px;
+    font-family: cursive;
+    border: 1px solid #5eaaa8;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    
+}
+#container #display {
+    border: solid #5eaaa8;
+    width: 50%;
+    height: 200px;
+    margin: auto;
+    border-radius: 10px;
+    padding-top: 100px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 22px;
+}
+#container #display #quote {
+    margin: 15px;
+}
+#container #display #author {
+    font-family: fantasy;
+}
+
+

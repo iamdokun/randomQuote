@@ -151,7 +151,7 @@ function quoteBtn() {
       ];
       let randQuote = Math.floor(Math.random() * randomQuote.length);
       let myQuote = randomQuote[randQuote];
-      console.log(myQuote);
+    //   console.log(myQuote);
     //   randomDisplay.innerHTML = myQuote;
     displayQuote.innerText = myQuote.quote;
     displayAuthor.innerText = myQuote.author;
